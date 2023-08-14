@@ -14,8 +14,6 @@ class FlowersRepository:
         self.flowers = []
         self.carts = []
 
-    # необходимые методы сюда
-
     def get_all(self) -> list[Flower]:
         return self.flowers
 

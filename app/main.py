@@ -21,7 +21,6 @@ purchases_repository = PurchasesRepository()
 users_repository = UsersRepository()
 
 
-# ваше решение сюда
 def encodeJWT(payload) -> str:
 
     token = jwt.encode(payload, "lluna", "HS256")
@@ -129,6 +128,3 @@ def get_all_purchased(request: Request,current_user: User = Depends(verificate_u
 
 
 
-
-
-# конец решения
